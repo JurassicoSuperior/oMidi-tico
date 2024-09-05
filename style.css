@@ -1,0 +1,86 @@
+body {
+color: white;
+background: rgb(0, 0, 0);
+font-family:"Chakra Petch", sans-serif;
+margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 3px rgb(123, 255, 0);
+    font-size: 36px;
+    color: rgb(123, 255, 0);
+}
+
+
+p{
+    padding-left: 40px;
+    padding-right: 50px;
+    font-size: 25px;
+    font-family: "Chakra Petch", sans-serif;
+
+}
+
+    
+h1{font-size: 45px;
+    text-justify: distribute;
+    padding-left: 30px;
+    padding-right: 30px;
+ text-justify: auto;
+    font-family: "Pixelify Sans", sans-serif;
+}
+    
+div{
+    size-adjust: small;
+padding-right: 40px;
+padding-left: 30px;
+}
+
+
+
+.chamada {
+    background-color: rgb(5, 5, 5);
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    display: flex;
+
+}
+
+.chamada-texto{
+    margin-right: 20px;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 40px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categoria h2{
+    color: rgb(123, 255, 0)
+}
